@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: oracle:orai18n:1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/oracle/orai18n/1/orai18n-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/oracle/orai18n/1/orai18n-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/oracle/orai18n/1/orai18n-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

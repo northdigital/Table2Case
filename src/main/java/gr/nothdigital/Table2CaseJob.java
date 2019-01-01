@@ -44,7 +44,7 @@ public class Table2CaseJob {
 
     for (String field : fields) {
       System.out.print(seperator[0] + field);
-      seperator[0] = ",";
+      seperator[0] = ", ";
     }
 
     System.out.println();

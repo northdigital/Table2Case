@@ -20,19 +20,16 @@
       <groupId>oracle</groupId>
       <artifactId>jdbc</artifactId>
       <version>1</version>
-
     </dependency>
     <dependency>
       <groupId>oracle</groupId>
       <artifactId>orai18n</artifactId>
       <version>1</version>
-
     </dependency>
     <dependency>
       <groupId>oracle</groupId>
       <artifactId>ucp</artifactId>
       <version>1</version>
-
     </dependency>
   </dependencies>
 

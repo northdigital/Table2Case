@@ -23,7 +23,6 @@ public class Table2CaseJob {
     oraCommand.processResultSet(resultSet -> {
       String COLUMN_NAME = resultSet.getString(1);
       String DATA_TYPE = resultSet.getString(2);
-      //long DATA_LENGTH = resultSet.getLong(3);
 
       if(DATA_TYPE.equals("NUMBER")) {
         System.out.print(seperator[0] + COLUMN_NAME + ": Double");
@@ -39,6 +38,7 @@ public class Table2CaseJob {
     System.out.print(")");
 
     seperator[0] = "";
+    System.out.println();
     System.out.println();
     System.out.print("SELECT ");
 

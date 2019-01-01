@@ -16,9 +16,11 @@ public class Main {
 
     sqlWorker.run(false, false, connection -> {
       //TestJob.run(connection);
-      Table2CaseJob.run(connection, args[4], args[5]);
+      //Table2CaseJob.run(connection, args[4], args[5]);
+      Select2CaseJob.run(connection, "SELECT ID, TITLE FROM CASINOCRM.ACTION", "ActionSelect");
     });
 
+    System.out.println();
     System.out.println("end");
   }
 }
